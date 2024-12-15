@@ -1,0 +1,134 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* _______________________________________________________________ */
+
+/* Resets */
+/* 1. Use a more-intuitive box-sizing model 
+    2. Remove default margin
+    3. Remove default Padding*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 4.Setting Page's Font */
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+/* _______________________________________________________________ */
+
+/* Variables */
+:root {
+    /* Color Theme */
+
+    /* Typography */
+
+    /* Spacing */
+}
+
+/* Color Theme for Dark mode goes here */
+.dark-mode {
+}
+/* _______________________________________________________________ */
+/* !Main CSS */
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #201f21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: min(25em, 90%);
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 4em;
+    padding: 0 1.25em;
+    border: 1px solid #ccc;
+    outline: 0;
+    color: #fff;
+    background: transparent;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+}
+
+button img {
+    width: 2.5em;
+}
+
+#message {
+    position: absolute;
+    bottom: -2em;
+    color: #fff;
+    font-size: 1.25rem;
+    display: none;
+}
+
+::placeholder {
+    font-size: 1.5em;
+}
+/* _______________________________________________________________ */
+/* Media Queries */
+@media() {
+}
+/* _______________________________________________________________ */
